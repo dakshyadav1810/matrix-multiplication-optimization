@@ -1,0 +1,43 @@
+Running python ./python/Naive.py
+[##################################################] 100.00%
+Average for python ./python/Naive.py : 99.43711519241333 ms
+
+Running python ./python/Numpy.py
+[##################################################] 100.00%
+Average for python ./python/Numpy.py : 0.7693696022033691 ms
+
+Running python ./python/StrassenInPy.py
+[##################################################] 100.00%
+Average for python ./python/StrassenInPy.py : 416.11889362335205 ms
+
+Running ./executables/naive
+[##################################################] 100.00%
+Average for ./executables/naive : 3.09 ms
+
+Running ./executables/vectorMultiplication
+[##################################################] 100.00%
+Average for ./executables/vectorMultiplication : 9.89 ms
+
+Running ./executables/CacheMissesTestIJK
+[##################################################] 100.00%
+Average for ./executables/CacheMissesTestIJK : 3.418882 ms
+
+Running ./executables/CacheMissesTestKIJ
+[##################################################] 100.00%
+Average for ./executables/CacheMissesTestKIJ : 2.613607 ms
+
+Running ./executables/CUDA
+[##################################################] 100.00%
+Average for ./executables/CUDA : 0.488425 ms
+
+Running ./executables/CUDA-Flags
+[##################################################] 100.00%
+Average for ./executables/CUDA-Flags : 0.159741 ms
+
+Running ./executables/CUDA-Flags-Unrolled
+[##################################################] 100.00%
+Average for ./executables/CUDA-Flags-Unrolled : 0.8260609999999999 ms
+
+Running ./executables/CUDA-Flags-BLAS
+[##################################################] 100.00%
+Average for ./executables/CUDA-Flags-BLAS : 3.8911450000000003 ms
